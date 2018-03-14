@@ -4,16 +4,11 @@
     <meta charset="UTF-8">
     <title>Docs -Holodeck - Virtual Spaces</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link href="main.css" rel="stylesheet" type="text/css">
-    <link href="holodeck.css" rel="stylesheet" type="text/css">
-
-
-    <!--Adobe Typekit Font Loader-->
-    <script src="https://use.typekit.net/fck3diq.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
-    <script src="https://use.fontawesome.com/58d6c9730f.js"></script>
+    <link href="sass/holodeck.css" rel="stylesheet" type="text/css">
 
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -35,7 +30,7 @@
 
     <div class="container">
         <div class="row docs-layout">
-            <div class="col-3">
+            <div class="col-md-3">
                 <nav class="menu docs-menu">
                     <a class="menu-item " href="framework.html">Framework</a>
                     <a class="menu-item " href="layout.html">Layout</a>
@@ -46,7 +41,7 @@
                     <a class="menu-item " href="icons.html">Icons</a>
                 </nav>
             </div>
-            <div class="col-9 markdown-body">
+            <div class="col-md-9 markdown-body">
                 <h1 class="page-title">Buttons</h1>
                 <p>Buttons are used for <strong>actions</strong>, like in forms, while textual hyperlinks are used for <strong>destinations</strong>, or moving from one page to another.</p>
 
@@ -59,7 +54,7 @@
                     <a class="button primary-action" href="#" role="button">Link button</a>
                 </div>
 
-                <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button primary-action"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>Button button<span class="nt">&lt;/button&gt;</span>
+                <div class="highlight"><pre><code class="html" data-lang="html"><span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button primary-action"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>Button button<span class="nt">&lt;/button&gt;</span>
 <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button primary-action"</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">role=</span><span class="s">"button"</span><span class="nt">&gt;</span>Link button<span class="nt">&lt;/a&gt;</span></code></pre></div>
 
                 <p>You can find them in four sizes: <code>.size-xs</code>, the default <code>.button</code>, <code>.size-md</code>, and <code>.size-lg</code>.</p>
@@ -81,9 +76,21 @@
                     <button class="button primary-action" type="button">.button .primary-action</button>
                     <button class="button secondary" type="button">.button .secondary</button>
                 </div>
+                <div class="highlight">
+                    <pre>
+                        <code>
+<span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button primary-action"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>.button .primary-action<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button secondary"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>.button .secondary<span class="nt">&lt;/button&gt;</span>
+                        </code>
+                    </pre>
+                </div>
             </div>
         </div>
     </div>
+
+    <footer class="footer">
+        Copyright Virtual Spaces 2018.
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
