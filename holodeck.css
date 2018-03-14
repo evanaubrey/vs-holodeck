@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Tiempos Headline Test";
+  src: url("fonts/TiemposHeadlineTest-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: "Larsseit";
+  src: url("fonts/Larsseit.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+/*Variables */
+/*End Variables */
+/*Buttons */
+.button {
+  cursor: pointer;
+  height: 40px;
+  line-height: 40px;
+  font-size: 15px;
+  padding: 0 20px;
+  display: inline-block;
+  border: 2px solid transparent;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  overflow: hidden;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  outline: none; }
+
+.button:focus {
+  outline: none; }
+
+.primary-action {
+  color: #FDFDFD;
+  background: #E62651; }
+
+.primary-action:hover {
+  color: #FDFDFD; }
+
+.primary-action:active {
+  background: #C12248; }
+
+.secondary {
+  color: #E62651;
+  background: #FDFDFD;
+  border: solid #E62651 2px; }
+
+.secondary:hover {
+  color: #E62651; }
+
+.secondary:active {
+  background: #FDFDFD; }
+
+.size-xs {
+  height: 28px;
+  line-height: 25px; }
+
+.size-md {
+  font-size: 16px;
+  height: 48px;
+  line-height: 48px; }
+
+.size-lg {
+  font-size: 20px;
+  height: 60px;
+  line-height: 25px;
+  padding: 0 50px; }
+
+.button:hover {
+  text-decoration: none; }
+
+/*End Buttons */
+
+/*# sourceMappingURL=holodeck.css.map */

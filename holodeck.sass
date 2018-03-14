@@ -1,0 +1,71 @@
+@font-face
+  font-family: 'Tiempos Headline Test'
+  src: url('fonts/TiemposHeadlineTest-Bold.woff') format('woff')
+  font-weight: bold
+  font-style: normal
+
+@font-face
+  font-family: 'Larsseit'
+  src: url('fonts/Larsseit.woff') format('woff')
+  font-weight: 300
+  font-style: normal
+
+/*Variables*/
+$white: #FDFDFD
+$red: #E62651
+$selected-red: #C12248
+
+=border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius:    $radius
+  -ms-border-radius:     $radius
+  border-radius:         $radius
+/*End Variables*/
+
+/*Buttons*/
+.button
+  cursor: pointer
+  height: 40px
+  line-height: 40px
+  font-size: 15px
+  padding: 0 20px
+  display: inline-block
+  border: 2px solid transparent
+  +border-radius(5px)
+  text-decoration: none
+  overflow: hidden
+  vertical-align: middle
+  -webkit-appearance: none
+  outline: none
+.button:focus
+  outline: none
+.primary-action
+  color: $white
+  background: $red
+.primary-action:hover
+  color: $white
+.primary-action:active
+  background: $selected-red
+.secondary
+  color: $red
+  background: $white
+  border: solid $red 2px
+.secondary:hover
+  color: $red
+.secondary:active
+  background: $white
+.size-xs
+  height: 28px
+  line-height: 25px
+.size-md
+  font-size: 16px
+  height: 48px
+  line-height: 48px
+.size-lg
+  font-size: 20px
+  height: 60px
+  line-height: 25px
+  padding: 0 50px
+.button:hover
+  text-decoration: none
+/*End Buttons*/
