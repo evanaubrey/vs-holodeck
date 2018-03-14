@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf240e71-a765-406a-83f7-ab60c54309c3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buttons.html" afterPath="$PROJECT_DIR$/buttons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework.html" afterPath="$PROJECT_DIR$/framework.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="buttons.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="buttons.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buttons.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
+            <state relative-caret-position="8">
               <caret line="30" column="95" lean-forward="false" selection-start-line="30" selection-start-column="95" selection-end-line="30" selection-end-column="95" />
               <folding>
                 <element signature="e#2631#2635#0" expanded="true" />
@@ -73,6 +72,16 @@
                 <element signature="e#5474#5478#0" expanded="true" />
                 <element signature="e#5485#5489#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/layout.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="48" column="45" lean-forward="false" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -139,6 +148,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/framework.html" />
         <option value="$PROJECT_DIR$/buttons.html" />
+        <option value="$PROJECT_DIR$/layout.html" />
       </list>
     </option>
   </component>
@@ -177,16 +187,6 @@
             <path>
               <item name="vs-holodeck" type="b2602c69:ProjectViewProjectNode" />
               <item name="vs-holodeck" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vs-holodeck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vs-holodeck" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vs-holodeck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vs-holodeck" type="462c0819:PsiDirectoryNode" />
-              <item name="holodeck.sass" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -235,12 +235,12 @@
       <updated>1519960477191</updated>
       <workItem from="1519960479914" duration="6761000" />
       <workItem from="1520963120687" duration="458000" />
-      <workItem from="1521004932266" duration="7324000" />
+      <workItem from="1521004932266" duration="7533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14543000" />
+    <option name="totallyTimeSpent" value="14752000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -393,7 +393,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/buttons.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state relative-caret-position="8">
           <caret line="30" column="95" lean-forward="false" selection-start-line="30" selection-start-column="95" selection-end-line="30" selection-end-column="95" />
           <folding>
             <element signature="e#2631#2635#0" expanded="true" />
@@ -425,6 +425,14 @@
             <element signature="e#5474#5478#0" expanded="true" />
             <element signature="e#5485#5489#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="48" column="45" lean-forward="false" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
