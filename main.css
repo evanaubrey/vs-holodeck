@@ -307,6 +307,31 @@ body,input {
 .css .o,.css .o+.nt,.css .nt+.nt {
     color: #999
 }
+
+.folder-button{
+    background: transparent;
+    border: none;
+}
+
+.folder-button:hover{
+    cursor: pointer;
+}
+
+.folder-button label:hover{
+    cursor: pointer;
+}
+
+.folder-button:focus{
+    outline: none;
+}
+
+.sub-list{
+    display: block;
+}
+.inactive{
+    display:none;
+}
+
 button,html input[type="button"],input[type="reset"],input[type="submit"] {
     -webkit-appearance: button;
     cursor: pointer

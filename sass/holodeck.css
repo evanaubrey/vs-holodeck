@@ -12,6 +12,30 @@ code {
   border-radius: 2px;
   padding: 2px; }
 
+a {
+  color: #E62651; }
+
+a:hover {
+  color: #E62651; }
+
+.sub-list {
+  padding-left: 40px; }
+
+.anchor-link:hover {
+  text-decoration: none; }
+
+.red {
+  color: #E62651; }
+
+.white {
+  color: #FDFDFD; }
+
+.selected-red {
+  color: #C12248; }
+
+.selected-white {
+  color: #eeeeee; }
+
 @font-face {
   font-family: "TiemposHeadlineTest";
   src: url("../fonts/TiemposHeadlineTest-Bold.woff") format("woff");
@@ -32,6 +56,9 @@ code {
   src: url("../fonts/Larsseit-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal; }
+i {
+  vertical-align: middle; }
+
 /*Buttons */
 .button {
   cursor: pointer;
@@ -56,7 +83,8 @@ code {
 
 .primary-action {
   color: #FDFDFD;
-  background: #E62651; }
+  background: #E62651;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
 
 .primary-action:hover {
   color: #FDFDFD; }
@@ -67,13 +95,14 @@ code {
 .secondary {
   color: #E62651;
   background: #FDFDFD;
-  border: solid #E62651 2px; }
+  border: solid #E62651 2px;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
 
 .secondary:hover {
   color: #E62651; }
 
 .secondary:active {
-  background: #FDFDFD; }
+  background: #eeeeee; }
 
 .size-xs {
   height: 28px;

@@ -18,6 +18,7 @@
 .primary-action
   color: $white
   background: $red
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1)
 .primary-action:hover
   color: $white
 .primary-action:active
@@ -26,10 +27,11 @@
   color: $red
   background: $white
   border: solid $red 2px
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1)
 .secondary:hover
   color: $red
 .secondary:active
-  background: $white
+  background: $selected-white
 .size-xs
   height: 28px
   line-height: 25px

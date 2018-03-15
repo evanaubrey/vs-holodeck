@@ -43,10 +43,68 @@
                     <a class="menu-item " href="forms.html">Forms</a>
                     <a class="menu-item " href="utilities.html">Utilities</a>
                     <a class="menu-item " href="icons.html">Icons</a>
+                    <a class="menu-item " href="colors.html">Colors</a>
                 </nav>
             </div>
             <div class="col-md-9 markdown-body">
                 <h1 class="page-title">Framework</h1>
+
+                <h2 id="html-boilerplate">HTML boilerplate</h2>
+
+                <p>If you’re starting a new project, we recommend using the following boilerplate.</p>
+
+                <p>Holodeck makes use of certain HTML elements and CSS properties that <strong>require</strong> the use of the HTML5 doctype. Include it at the beginning of all your pages.</p>
+
+                <p>We also use <a href="https://getbootstrap.com/">Boostrap</a> for its grid layout functionality. That stylesheet and required scripts are included below.</p>
+
+                <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">http-equiv=</span><span class="s">"X-UA-Compatible"</span> <span class="na">content=</span><span class="s">"IE=edge"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"</span> <span class="na">integrity=</span><span class="s">"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;</span>
+
+    <span class="nt">&lt;title&gt;</span>Your page title<span class="nt">&lt;/title&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"description"</span> <span class="na">content=</span><span class="s">"Your page description"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    Your page body
+    <span class="nt">&lt;script</span> <span class="na">src=</span><span class="s">"https://code.jquery.com/jquery-3.2.1.slim.min.js"</span> <span class="na">integrity=</span><span class="s">"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;</span><span class="nt">&lt;/script&gt;</span>
+    <span class="nt">&lt;script</span> <span class="na">src=</span><span class="s">"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"</span> <span class="na">integrity=</span><span class="s">"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;</span><span class="nt">&lt;/script&gt;</span>
+    <span class="nt">&lt;script</span> <span class="na">src=</span><span class="s">"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"</span> <span class="na">integrity=</span><span class="s">"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;</span><span class="nt">&lt;/script&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span></code></pre>
+                </div>
+
+                <h2 id="angular-specfics">Angular Specifics</h2>
+
+                <p>We use <a href="https://angular.io/">Angular</a> as the framework for our web app. When creating a new component, the html boilerplate is not necessary. Instead, use this Angular boilerplate.</p>
+                <h5>Component Skeleton</h5>
+
+
+                <button class="folder-button"><i id="folder" class="material-icons red">folder</i>
+                    <label class="icon-text" for="folder">componentName</label></button>
+                <ul id="folder-items" class="sub-list">
+                    <li>componentName.component.html</li>
+                    <li>componentName.component.css</li>
+                    <li>componentName.component.ts</li>
+                </ul>
+
+
+
+                <h5>Component Typescript</h5>
+                <code>componentName.component.ts</code>
+                <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">import</span> <span class="na">{</span><span class="s">Component</span><span class="na">}</span> <span class="nt">from</span> <span class="s">'@angular/core'</span>;
+
+<span>@</span>Component({
+  selector: 'app-componentName',
+  templateUrl: './componentName.component.html',
+  styleUrls: ['./componentName.component.css']
+})
+
+                </code></pre>
+                </div>
             </div>
         </div>
     </div>
@@ -58,5 +116,15 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="node_modules/anchor-js/anchor.min.js"></script>
+    <script>
+        var selector = '.markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5  ';
+        anchors.options = {
+            placement: 'left',
+            class: 'anchor-link'
+        };
+        anchors.add(selector);
+    </script>
+    <script src="scripts.js" type="text/javascript"></script>
 </body>
 </html>
